@@ -1,0 +1,29 @@
+.base {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    width: 100%;
+    min-height: 420px;
+    max-height: 820px;
+    min-width: 320px;
+    max-width: 720px;
+    border-radius: 30px;
+    background: gray;
+    padding: 30px;
+    color: white;
+    display: none;
+    opacity: 0;
+    overflow-y:scroll;
+}
+
+.opened {
+    display: block;
+    opacity: 1;
+}
+
+.closed {
+    display: none;
+    opacity: 0;
+}
